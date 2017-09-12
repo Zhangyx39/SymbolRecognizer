@@ -1,16 +1,5 @@
 A brief description of our design: the model of the symbol recognizer.
 
-Assignment 10 updates:
-
-In this version, we did not change any functionality of the model from previous version.
-We changed the imprecision threshold in CompositeSymbolAbstract class to a larger number
-for better user experience.
-
-Decorator on Symbol Class
-We used the decorator design strategy to add two new features to the Symbol class,
-without changing its original design.
-- get symbol center, returns the center of each symbol as a point
-- get symbol name, returns the symbol name as a string
 
                     +--------+
                     |        |
